@@ -5,21 +5,30 @@
             test
         </title>
         <style>
-         body { text-align: center; }
-         h1 { margin-bottom: 0; }
-         nav a { margin: 2em; }
+         body {
+             margin: 0;
+             font-family: sans-serif;
+         }
+         header {
+             display: flex;
+             background: #d23;
+         }
          nav {
              display: flex;
              flex-direction: row;
              align-items: center;
-             justify-content: center;
+             justify-content: end;
              width: 100%;
+         }
+         h1, nav a {
+             margin: .6em 1em;
+             color: white;
+             font-weight: bold;
          }
          main {
              display: flex;
              flex-direction: column;
              align-items: center;
-             flex-wrap: nowrap;
          }
          section {
              display: block;
@@ -27,20 +36,25 @@
              max-width: 700px;
              border-radius: 2em;
              padding: 2em;
-             margin: 1em;
+             box-shadow: 0 0 1em -.5em #111;
+             margin: 2em;
              background: rgba(16, 16, 16, 0.15);
          }
         </style>
     </head>
     <body>
-        <h1>neonfuz.xyz</h1>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-        </nav>
+        <header>
+            <h1>neonfuz.xyz</h1>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+            </nav>
+        </header>
         <main>
             <section>
-                Hello world
+                <h2>
+                    Under construction...
+                </h2>
             </section>
         </main>
     </body>
