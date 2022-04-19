@@ -1,5 +1,6 @@
 <script>
  import PDF from '$lib/PDF.svelte';
+ import Dropdown from '$lib/Dropdown.svelte';
  const foo = [
      {
          name: "MiniPlayer in SideBar",
@@ -33,11 +34,11 @@
 </script>
 
 
-<header class="container">
+<header>
     <h1>neonfuz.xyz</h1>
     <nav>
-        <section>
-            <h3>Links</h3>
+        <Dropdown>
+            <header>Links</header>
             <ul>
                 <li>
                     <a href="https://neonfuz.github.io/resume/resume.pdf"
@@ -52,9 +53,9 @@
                     </a>
                 </li>
             </ul>
-        </section>
-        <section>
-            <h3>Youtube improvements</h3>
+        </Dropdown>
+        <Dropdown>
+            <header>Youtube Improvements</header>
             <ul>
                 {#each foo as {name, href, id}}
                     <li>
@@ -64,69 +65,72 @@
                     </li>
                 {/each}
             </ul>
-        </section>
+        </Dropdown>
     </nav>
 </header>
 
 <main class="container">
-    <div class="row">
-        <div class="column">
+    <div class="preview">
+        <div style={tab('resume', tabId)} style:width="100%">
+            <h2>Resume</h2>
+            <PDF
+                title="Resume"
+                src="https://neonfuz.github.io/resume/resume.html"
+                href="https://neonfuz.github.io/resume/resume.pdf"
+            />
         </div>
-        <div class="column column-67 preview">
-            <div style={tab('resume', tabId)} style:width="100%">
-                <PDF
-                    title="Resume"
-                    src="https://neonfuz.github.io/resume/resume.html"
-                    href="https://neonfuz.github.io/resume/resume.pdf"
-                />
-            </div>
-            <div style={tab('github', tabId)}>
-                    <a href="https://github.com/neonfuz">
-                        <img alt="GitHub" src="/github.png"/>
-                    </a>
-                    <p>Most of my open source code is available on my GitHub</p>
-                    <a class="button" href="https://github.com/neonfuz">Visit</a>
-            </div>
-            <div style={tab('youtubePlaylistButton', tabId)}>
-                <embed src="/youtube-playlist.svg" />
-                <p>
-                    This userscript adds a + button to many videos which quickly
-                    opens the "Add to playlist" menu.
-                </p>
-                <a class="button" href="https://gist.github.com/neonfuz/ea14fe2ad32c4caa860f36bb521b9a60">
-                    View code
-                </a>
-                <a class="button" href="https://gist.github.com/neonfuz/ea14fe2ad32c4caa860f36bb521b9a60/raw/youtube-quick-playlist.user.js">
-                    Install
-                </a>
-            </div>
-            <div style={tab('youtubeMiniplayerSidebar', tabId)}>
-                <embed src="/youtube-miniplayer.svg" />
-                <p>
-                    This userstyle moves the youtube miniplayer into vacant
-                    sidebar space while viewing playlists.
-                </p>
-                <p>
-                    It also allows the playlist sidebar width to be configured.
-                </p>
-                <a class="button" href="https://gist.github.com/neonfuz/6d3790334983b87b638ddecf84d0ab09">
-                    View code
-                </a>
-                <a class="button" href="https://gist.github.com/neonfuz/6d3790334983b87b638ddecf84d0ab09/raw/yt-miniplayer-in-playlist-sidebar.user.css">
-                    Install
-                </a>
-            </div>
+        <div style={tab('github', tabId)}>
+            <h2>GitHub</h2>
+            <a href="https://github.com/neonfuz">
+                <img alt="GitHub" src="/github.png"/>
+            </a>
+            <p>Most of my open source code is available on my GitHub</p>
+            <a class="button" href="https://github.com/neonfuz">Visit</a>
+        </div>
+        <div style={tab('youtubePlaylistButton', tabId)}>
+            <h2>YouTube Quick Playlist Button</h2>
+            <embed src="/youtube-playlist.svg" />
+            <p>
+                This userscript adds a + button to many videos which quickly
+                opens the "Add to playlist" menu.
+            </p>
+            <a class="button" href="https://gist.github.com/neonfuz/ea14fe2ad32c4caa860f36bb521b9a60">
+                View code
+            </a>
+            <a class="button" href="https://gist.github.com/neonfuz/ea14fe2ad32c4caa860f36bb521b9a60/raw/youtube-quick-playlist.user.js">
+                Install
+            </a>
+        </div>
+        <div style={tab('youtubeMiniplayerSidebar', tabId)}>
+            <h2>YouTube MiniPlayer in SideBar</h2>
+            <embed src="/youtube-miniplayer.svg" />
+            <p>
+                This userstyle moves the youtube miniplayer into vacant
+                sidebar space while viewing playlists.
+            </p>
+            <p>
+                It also allows the playlist sidebar width to be configured.
+            </p>
+            <a class="button" href="https://gist.github.com/neonfuz/6d3790334983b87b638ddecf84d0ab09">
+                View code
+            </a>
+            <a class="button" href="https://gist.github.com/neonfuz/6d3790334983b87b638ddecf84d0ab09/raw/yt-miniplayer-in-playlist-sidebar.user.css">
+                Install
+            </a>
         </div>
     </div>
 </main>
 
 <style>
  header {
-     position: fixed;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
  }
- main {
-     top: 0;
-     position: absolute;
+ header {
+     padding: 1rem;
  }
  .preview {
      position: relative;
