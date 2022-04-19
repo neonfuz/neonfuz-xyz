@@ -71,7 +71,7 @@
 
 <main class="container">
     <div class="preview">
-        <div style={tab('resume', tabId)} style:width="100%">
+        <div style={tab('resume', tabId)}>
             <h2>Resume</h2>
             <PDF
                 title="Resume"
@@ -81,42 +81,60 @@
         </div>
         <div style={tab('github', tabId)}>
             <h2>GitHub</h2>
-            <a href="https://github.com/neonfuz">
-                <img alt="GitHub" src="/github.png"/>
-            </a>
-            <p>Most of my open source code is available on my GitHub</p>
-            <a class="button" href="https://github.com/neonfuz">Visit</a>
+            <div class="row">
+                <div class="column">
+                    <p>Most of my open source code is available on my GitHub</p>
+                    <a class="button" href="https://github.com/neonfuz">Visit</a>
+                </div>
+                <div class="column">
+                    <a href="https://github.com/neonfuz">
+                        <img alt="GitHub" src="/github.png"/>
+                    </a>
+                </div>
+            </div>
         </div>
         <div style={tab('youtubePlaylistButton', tabId)}>
             <h2>YouTube Quick Playlist Button</h2>
-            <embed src="/youtube-playlist.svg" />
-            <p>
-                This userscript adds a + button to many videos which quickly
-                opens the "Add to playlist" menu.
-            </p>
-            <a class="button" href="https://gist.github.com/neonfuz/ea14fe2ad32c4caa860f36bb521b9a60">
-                View code
-            </a>
-            <a class="button" href="https://gist.github.com/neonfuz/ea14fe2ad32c4caa860f36bb521b9a60/raw/youtube-quick-playlist.user.js">
-                Install
-            </a>
+            <div class="row">
+                <div class="column">
+                    <p>
+                        This userscript adds a + button to many videos which quickly
+                        opens the "Add to playlist" menu.
+                    </p>
+                    <a class="button" href="https://gist.github.com/neonfuz/ea14fe2ad32c4caa860f36bb521b9a60">
+                        View code
+                    </a>
+                    <a class="button" href="https://gist.github.com/neonfuz/ea14fe2ad32c4caa860f36bb521b9a60/raw/youtube-quick-playlist.user.js">
+                        Install
+                    </a>
+                </div>
+                <div class="column">
+                    <embed src="/youtube-playlist.svg" />
+                </div>
+            </div>
         </div>
         <div style={tab('youtubeMiniplayerSidebar', tabId)}>
             <h2>YouTube MiniPlayer in SideBar</h2>
-            <embed src="/youtube-miniplayer.svg" />
-            <p>
-                This userstyle moves the youtube miniplayer into vacant
-                sidebar space while viewing playlists.
-            </p>
-            <p>
-                It also allows the playlist sidebar width to be configured.
-            </p>
-            <a class="button" href="https://gist.github.com/neonfuz/6d3790334983b87b638ddecf84d0ab09">
-                View code
-            </a>
-            <a class="button" href="https://gist.github.com/neonfuz/6d3790334983b87b638ddecf84d0ab09/raw/yt-miniplayer-in-playlist-sidebar.user.css">
-                Install
-            </a>
+            <div class="row">
+                <div class="column">
+                    <embed src="/youtube-miniplayer.svg" />
+                </div>
+                <div class="column">
+                    <p>
+                        This userstyle moves the youtube miniplayer into vacant
+                        sidebar space while viewing playlists.
+                    </p>
+                    <p>
+                        It also allows the playlist sidebar width to be configured.
+                    </p>
+                    <a class="button" href="https://gist.github.com/neonfuz/6d3790334983b87b638ddecf84d0ab09">
+                        View code
+                    </a>
+                    <a class="button" href="https://gist.github.com/neonfuz/6d3790334983b87b638ddecf84d0ab09/raw/yt-miniplayer-in-playlist-sidebar.user.css">
+                        Install
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </main>
@@ -140,6 +158,15 @@
      top: 0;
      transition: opacity .4s;
      opacity: 0;
+ }
+ .preview img {
+     box-shadow: 0 0 10px #2222;
+ }
+ .preview .row {
+     align-items: center;
+ }
+ .preview {
+     text-align: center;
  }
  embed {
      max-width: 100%;
