@@ -3,8 +3,8 @@
 
 <svg
    width="233.53889mm"
-   height="114.09291mm"
-   viewBox="0 0 233.53889 114.09291"
+   height="126.75079mm"
+   viewBox="0 0 233.53889 126.75077"
    version="1.1"
    id="svg5"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -72,10 +72,44 @@
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path1100" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="marker18188"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path11108" />
+    </marker>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath10717">
+      <rect
+         style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.999998;stroke-opacity:1"
+         id="rect10719"
+         width="389.78241"
+         height="149.22501"
+         x="-126.42069"
+         y="-11.418144" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath10713">
+      <rect
+         style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.999998;stroke-opacity:1"
+         id="rect10715"
+         width="389.78241"
+         height="149.22501"
+         x="-126.42069"
+         y="-180.97966" />
+    </clipPath>
   </defs>
   <g
      id="layer1"
-     transform="translate(19.389843,-123.21931)">
+     transform="translate(19.389843,-115.02292)">
     <image
        width="233.53889"
        height="43.038891"
@@ -83,7 +117,7 @@
        xlink:href="youtube-playlist-after.png"
        id="image936"
        x="-19.389843"
-       y="194.27333" />
+       y="198.73482" />
     <image
        width="233.53889"
        height="43.038891"
@@ -96,42 +130,64 @@
        id="path1018">
       <path
          style="color:#000000;fill:#d40000;-inkscape-stroke:none"
-         d="m 204.39844,171.88281 v 25.62305 h 1 v -25.62305 z"
-         id="path9575" />
+         d="m 204.39844,171.88281 v 33.17969 h 1 v -33.17969 z"
+         id="path976" />
       <g
-         id="g9565">
+         id="g966">
         <g
-           id="path9567">
+           id="path968">
           <path
              style="color:#000000;fill:#d40000;fill-rule:evenodd;stroke-width:0.399999pt;-inkscape-stroke:none"
-             d="m 204.89759,199.81329 -2,-3.46 h 4 z"
-             id="path9571" />
+             d="m 204.89759,207.36966 -2,-3.46 h 4 z"
+             id="path972" />
           <path
              style="color:#000000;fill:#d40000;fill-rule:evenodd;-inkscape-stroke:none"
-             d="m 202.43555,196.08594 2.46289,4.25976 0.23047,-0.39843 2.23046,-3.86133 z m 0.92382,0.5332 h 3.07618 l -1.53711,2.66016 z"
-             id="path9573" />
+             d="m 202.43555,203.64258 2.46289,4.25976 0.23047,-0.39843 2.23046,-3.86133 z m 0.92382,0.5332 h 3.07618 l -1.53711,2.66016 z"
+             id="path974" />
         </g>
       </g>
     </g>
+  </g>
+  <g
+     id="g1860"
+     transform="translate(-252.66838,111.12873)">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
+       id="rect10337"
+       width="49.609791"
+       height="20.3365"
+       x="252.66838"
+       y="-111.12873" />
     <text
        xml:space="preserve"
-       style="font-size:10.5833px;line-height:1.25;font-family:Roboto;text-align:center;letter-spacing:0px;text-anchor:middle;stroke-width:0.264583;fill:#606c76;fill-opacity:1;-inkscape-font-specification:'Roboto Light';font-weight:300;font-style:normal;font-stretch:normal;font-variant:normal"
-       x="-2.6412387"
-       y="131.2653"
-       id="text2454"><tspan
-         id="tspan2452"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';stroke-width:0.264583;fill:#606c76;fill-opacity:1"
-         x="-2.6412389"
-         y="131.2653">Before</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:center;letter-spacing:0px;text-anchor:middle;fill:#606c76;fill-opacity:1;stroke-width:0.264583"
+       x="277.19421"
+       y="-96.989159"
+       id="text2454-2"><tspan
+         id="tspan2452-6"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';fill:#606c76;fill-opacity:1;stroke-width:0.264583"
+         x="277.19421"
+         y="-96.989159">Before</tspan></text>
+  </g>
+  <g
+     id="g1855"
+     transform="translate(-252.66838,4.9425998)">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
+       id="rect10499"
+       width="49.609791"
+       height="20.3365"
+       x="252.66838"
+       y="58.432793" />
     <text
        xml:space="preserve"
-       style="font-size:10.5833px;line-height:1.25;font-family:Roboto;text-align:center;letter-spacing:0px;text-anchor:middle;stroke-width:0.264583;fill:#606c76;fill-opacity:1;-inkscape-font-specification:'Roboto Light';font-weight:300;font-style:normal;font-stretch:normal;font-variant:normal"
-       x="-5.6911664"
-       y="190.16626"
-       id="text3266"><tspan
-         id="tspan3264"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';stroke-width:0.264583;fill:#606c76;fill-opacity:1"
-         x="-5.6911659"
-         y="190.16626">After</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:center;letter-spacing:0px;text-anchor:middle;fill:#606c76;fill-opacity:1;stroke-width:0.264583"
+       x="274.10141"
+       y="72.572365"
+       id="text3266-5"><tspan
+         id="tspan3264-6"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';fill:#606c76;fill-opacity:1;stroke-width:0.264583"
+         x="274.10141"
+         y="72.572365">After</tspan></text>
   </g>
 </svg>

@@ -1,4 +1,5 @@
 <script>
+ import PDF from '$lib/PDF.svelte';
  const foo = [
      {
          name: "MiniPlayer in SideBar",
@@ -24,62 +25,67 @@
      }
  }
  function tab(name, tabId) {
-     return tabId === name ? 1 : 0;
+     if (tabId === name)
+         return 'width: 100%; opacity: 1;';
+     else
+         return 'width: 100%; opacity: 0; pointer-events: none;'
  }
 </script>
 
+
 <header class="container">
     <h1>neonfuz.xyz</h1>
+    <nav>
+        <section>
+            <h3>Links</h3>
+            <ul>
+                <li>
+                    <a href="https://neonfuz.github.io/resume/resume.pdf"
+                       use:preview={"resume"}>
+                        Resume
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/neonfuz"
+                       use:preview={"github"}>
+                        Github
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h3>Youtube improvements</h3>
+            <ul>
+                {#each foo as {name, href, id}}
+                    <li>
+                        <a href={href} use:preview={id}>
+                            {name}
+                        </a>
+                    </li>
+                {/each}
+            </ul>
+        </section>
+    </nav>
 </header>
 
 <main class="container">
     <div class="row">
         <div class="column">
-            <section>
-                <h3>Links</h3>
-                <ul>
-                    <li>
-                        <a href="https://neonfuz.github.io/resume/resume.pdf"
-                           use:preview={"resume"}>
-                            Resume
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/neonfuz"
-                           use:preview={"github"}>
-                            Github
-                        </a>
-                    </li>
-                </ul>
-            </section>
-            <section>
-                <h3>Youtube improvements</h3>
-                <ul>
-                    {#each foo as {name, href, id}}
-                        <li>
-                            <a href={href} use:preview={id}>
-                                {name}
-                            </a>
-                        </li>
-                    {/each}
-                </ul>
-            </section>
         </div>
-        <div class="column preview">
-            <div style:opacity={tab('resume', tabId)}
-                               style:width="100%">
-                <div class="pdf-wrap">
-                    <a href="https://neonfuz.github.io/resume/resume.pdf"></a>
-                    <iframe
-                        title="resume"
-                        frameborder="0"
-                        src="https://neonfuz.github.io/resume/resume.pdf" />
-                </div>
+        <div class="column column-67 preview">
+            <div style={tab('resume', tabId)} style:width="100%">
+                <PDF
+                    title="Resume"
+                    src="https://neonfuz.github.io/resume/resume.html"
+                    href="https://neonfuz.github.io/resume/resume.pdf"
+                />
             </div>
-            <div style:opacity={tab('github', tabId)}>
-                <img alt="Github" src="/github.png"/>
+            <div style={tab('github', tabId)}>
+                    <a href="https://github.com/neonfuz">
+                        <img alt="Github" src="/github.png"/>
+                    </a>
             </div>
-            <div style:opacity={tab('youtubePlaylistButton', tabId)}>
+            <div style={tab('youtubePlaylistButton', tabId)}>
                 <embed src="/youtube-playlist.svg" />
                 <p>
                     This userscript adds a + button to many videos which quickly
@@ -92,7 +98,7 @@
                     Install
                 </a>
             </div>
-            <div style:opacity={tab('youtubeMiniplayerSidebar', tabId)}>
+            <div style={tab('youtubeMiniplayerSidebar', tabId)}>
                 <embed src="/youtube-miniplayer.svg" />
                 <p>
                     This userstyle moves the youtube miniplayer into vacant
@@ -113,6 +119,13 @@
 </main>
 
 <style>
+ header {
+     position: fixed;
+ }
+ main {
+     top: 0;
+     position: absolute;
+ }
  .preview {
      position: relative;
  }
@@ -120,24 +133,14 @@
      position: absolute;
      top: 0;
      transition: opacity .4s;
- }
- .pdf-wrap {
-     display: block;
-     position: relative;
-     padding-bottom: 129.41%;
- }
- .pdf-wrap a {
-     display: block;
-     position: absolute;
-     inset: 0;
-     z-index: 1;
- }
- iframe {
-     position: absolute;
-     width: 100%;
-     height: 100%;
+     opacity: 0;
  }
  embed {
      max-width: 100%;
+     margin-top: 1rem;
+ }
+ :global(body) {
+     margin: 0;
+     height: 100%;
  }
 </style>

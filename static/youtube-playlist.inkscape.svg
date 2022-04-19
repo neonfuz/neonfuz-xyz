@@ -3,13 +3,37 @@
 
 <svg
    width="233.53889mm"
-   height="114.09291mm"
-   viewBox="0 0 233.53889 114.09291"
+   height="126.75079mm"
+   viewBox="0 0 233.53889 126.75078"
    version="1.1"
    id="svg5"
+   sodipodi:docname="youtube-playlist.inkscape.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-page="true"
+     inkscape:zoom="0.94661332"
+     inkscape:cx="423.08722"
+     inkscape:cy="266.21218"
+     inkscape:window-width="1914"
+     inkscape:window-height="1045"
+     inkscape:window-x="0"
+     inkscape:window-y="1109"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
   <defs
      id="defs2">
     <marker
@@ -72,10 +96,46 @@
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path1100" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="marker18188"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path11108" />
+    </marker>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath10717">
+      <rect
+         style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.999998;stroke-opacity:1"
+         id="rect10719"
+         width="389.78241"
+         height="149.22501"
+         x="-126.42069"
+         y="-11.418144" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath10713">
+      <rect
+         style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.999998;stroke-opacity:1"
+         id="rect10715"
+         width="389.78241"
+         height="149.22501"
+         x="-126.42069"
+         y="-180.97966" />
+    </clipPath>
   </defs>
   <g
      id="layer1"
-     transform="translate(19.389843,-123.21931)">
+     transform="translate(19.389844,-115.02292)">
     <image
        width="233.53889"
        height="43.038891"
@@ -83,7 +143,7 @@
        xlink:href="youtube-playlist-after.png"
        id="image936"
        x="-19.389843"
-       y="194.27333" />
+       y="198.73482" />
     <image
        width="233.53889"
        height="43.038891"
@@ -94,27 +154,52 @@
        y="135.35942" />
     <path
        style="fill:none;stroke:#d40000;stroke-width:0.999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM)"
-       d="m 204.89759,171.88211 v 25.62318"
-       id="path1018" />
+       d="m 204.89759,171.88211 v 33.17955"
+       id="path1018"
+       sodipodi:nodetypes="cc" />
+  </g>
+  <g
+     id="g1860"
+     transform="translate(-252.66838,111.12873)">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
+       id="rect10337"
+       width="49.609791"
+       height="20.3365"
+       x="252.66838"
+       y="-111.12873" />
     <text
        xml:space="preserve"
-       style="font-size:10.5833px;line-height:1.25;font-family:Roboto;text-align:center;letter-spacing:0px;text-anchor:middle;stroke-width:0.264583;fill:#606c76;fill-opacity:1;-inkscape-font-specification:'Roboto Light';font-weight:300;font-style:normal;font-stretch:normal;font-variant:normal"
-       x="-2.6412387"
-       y="131.2653"
-       id="text2454"><tspan
-         id="tspan2452"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';stroke-width:0.264583;fill:#606c76;fill-opacity:1"
-         x="-2.6412389"
-         y="131.2653">Before</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:center;letter-spacing:0px;text-anchor:middle;fill:#606c76;fill-opacity:1;stroke-width:0.264583"
+       x="277.19421"
+       y="-96.989159"
+       id="text2454-2"><tspan
+         sodipodi:role="line"
+         id="tspan2452-6"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';fill:#606c76;fill-opacity:1;stroke-width:0.264583"
+         x="277.19421"
+         y="-96.989159">Before</tspan></text>
+  </g>
+  <g
+     id="g1855"
+     transform="translate(-252.66838,4.942599)">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
+       id="rect10499"
+       width="49.609791"
+       height="20.3365"
+       x="252.66838"
+       y="58.432793" />
     <text
        xml:space="preserve"
-       style="font-size:10.5833px;line-height:1.25;font-family:Roboto;text-align:center;letter-spacing:0px;text-anchor:middle;stroke-width:0.264583;fill:#606c76;fill-opacity:1;-inkscape-font-specification:'Roboto Light';font-weight:300;font-style:normal;font-stretch:normal;font-variant:normal"
-       x="-5.6911664"
-       y="190.16626"
-       id="text3266"><tspan
-         id="tspan3264"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';stroke-width:0.264583;fill:#606c76;fill-opacity:1"
-         x="-5.6911659"
-         y="190.16626">After</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:center;letter-spacing:0px;text-anchor:middle;fill:#606c76;fill-opacity:1;stroke-width:0.264583"
+       x="274.10141"
+       y="72.572365"
+       id="text3266-5"><tspan
+         sodipodi:role="line"
+         id="tspan3264-6"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';fill:#606c76;fill-opacity:1;stroke-width:0.264583"
+         x="274.10141"
+         y="72.572365">After</tspan></text>
   </g>
 </svg>
