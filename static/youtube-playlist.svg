@@ -4,7 +4,7 @@
 <svg
    width="233.53889mm"
    height="126.75079mm"
-   viewBox="0 0 233.53889 126.75077"
+   viewBox="0 0 233.53889 126.75078"
    version="1.1"
    id="svg5"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -109,7 +109,7 @@
   </defs>
   <g
      id="layer1"
-     transform="translate(19.389843,-115.02292)">
+     transform="translate(19.389844,-115.02292)">
     <image
        width="233.53889"
        height="43.038891"
@@ -131,47 +131,43 @@
       <path
          style="color:#000000;fill:#d40000;-inkscape-stroke:none"
          d="m 204.39844,171.88281 v 33.17969 h 1 v -33.17969 z"
-         id="path976" />
+         id="path1063" />
       <g
-         id="g966">
+         id="g1053">
         <g
-           id="path968">
+           id="path1055">
           <path
              style="color:#000000;fill:#d40000;fill-rule:evenodd;stroke-width:0.399999pt;-inkscape-stroke:none"
              d="m 204.89759,207.36966 -2,-3.46 h 4 z"
-             id="path972" />
+             id="path1059" />
           <path
              style="color:#000000;fill:#d40000;fill-rule:evenodd;-inkscape-stroke:none"
              d="m 202.43555,203.64258 2.46289,4.25976 0.23047,-0.39843 2.23046,-3.86133 z m 0.92382,0.5332 h 3.07618 l -1.53711,2.66016 z"
-             id="path974" />
+             id="path1061" />
         </g>
       </g>
     </g>
   </g>
-  <g
-     id="g1860"
-     transform="translate(-252.66838,111.12873)">
-    <rect
-       style="fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
-       id="rect10337"
-       width="49.609791"
-       height="20.3365"
-       x="252.66838"
-       y="-111.12873" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:center;letter-spacing:0px;text-anchor:middle;fill:#606c76;fill-opacity:1;stroke-width:0.264583"
-       x="277.19421"
-       y="-96.989159"
-       id="text2454-2"><tspan
-         id="tspan2452-6"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';fill:#606c76;fill-opacity:1;stroke-width:0.264583"
-         x="277.19421"
-         y="-96.989159">Before</tspan></text>
-  </g>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
+     id="rect10337"
+     width="49.609791"
+     height="20.3365"
+     x="0"
+     y="-7.7392576e-07" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:center;letter-spacing:0px;text-anchor:middle;fill:#606c76;fill-opacity:1;stroke-width:0.264583"
+     x="14.216142"
+     y="14.139571"
+     id="text2454-2"><tspan
+       id="tspan2452-6"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';fill:#606c76;fill-opacity:1;stroke-width:0.264583"
+       x="14.216142"
+       y="14.139571">Before</tspan></text>
   <g
      id="g1855"
-     transform="translate(-252.66838,4.9425998)">
+     transform="translate(-252.66838,4.942599)">
     <rect
        style="fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
        id="rect10499"
@@ -182,12 +178,12 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:center;letter-spacing:0px;text-anchor:middle;fill:#606c76;fill-opacity:1;stroke-width:0.264583"
-       x="274.10141"
+       x="263.79169"
        y="72.572365"
        id="text3266-5"><tspan
          id="tspan3264-6"
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';fill:#606c76;fill-opacity:1;stroke-width:0.264583"
-         x="274.10141"
+         x="263.79169"
          y="72.572365">After</tspan></text>
   </g>
 </svg>

@@ -17,9 +17,7 @@
  iframe {
      position: absolute;
      width: 100%;
-     height: calc(100vh - 1rem);
-     zoom: 0.5;
-     transform: scale(0.5);
+     height: 100vh;
  }
  a {
      display: block;

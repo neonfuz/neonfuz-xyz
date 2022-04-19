@@ -48,7 +48,7 @@
                 <li>
                     <a href="https://github.com/neonfuz"
                        use:preview={"github"}>
-                        Github
+                        GitHub
                     </a>
                 </li>
             </ul>
@@ -82,8 +82,10 @@
             </div>
             <div style={tab('github', tabId)}>
                     <a href="https://github.com/neonfuz">
-                        <img alt="Github" src="/github.png"/>
+                        <img alt="GitHub" src="/github.png"/>
                     </a>
+                    <p>Most of my open source code is available on my GitHub</p>
+                    <a class="button" href="https://github.com/neonfuz">Visit</a>
             </div>
             <div style={tab('youtubePlaylistButton', tabId)}>
                 <embed src="/youtube-playlist.svg" />

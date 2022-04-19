@@ -33,7 +33,7 @@
      inkscape:window-x="0"
      inkscape:window-y="1109"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="g1855" />
   <defs
      id="defs2">
     <marker
@@ -158,28 +158,24 @@
        id="path1018"
        sodipodi:nodetypes="cc" />
   </g>
-  <g
-     id="g1860"
-     transform="translate(-252.66838,111.12873)">
-    <rect
-       style="fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
-       id="rect10337"
-       width="49.609791"
-       height="20.3365"
-       x="252.66838"
-       y="-111.12873" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:center;letter-spacing:0px;text-anchor:middle;fill:#606c76;fill-opacity:1;stroke-width:0.264583"
-       x="277.19421"
-       y="-96.989159"
-       id="text2454-2"><tspan
-         sodipodi:role="line"
-         id="tspan2452-6"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';fill:#606c76;fill-opacity:1;stroke-width:0.264583"
-         x="277.19421"
-         y="-96.989159">Before</tspan></text>
-  </g>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
+     id="rect10337"
+     width="49.609791"
+     height="20.3365"
+     x="0"
+     y="-7.7392576e-07" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:center;letter-spacing:0px;text-anchor:middle;fill:#606c76;fill-opacity:1;stroke-width:0.264583"
+     x="14.216142"
+     y="14.139571"
+     id="text2454-2"><tspan
+       sodipodi:role="line"
+       id="tspan2452-6"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';fill:#606c76;fill-opacity:1;stroke-width:0.264583"
+       x="14.216142"
+       y="14.139571">Before</tspan></text>
   <g
      id="g1855"
      transform="translate(-252.66838,4.942599)">
@@ -193,13 +189,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:center;letter-spacing:0px;text-anchor:middle;fill:#606c76;fill-opacity:1;stroke-width:0.264583"
-       x="274.10141"
+       x="263.79169"
        y="72.572365"
        id="text3266-5"><tspan
          sodipodi:role="line"
          id="tspan3264-6"
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';fill:#606c76;fill-opacity:1;stroke-width:0.264583"
-         x="274.10141"
+         x="263.79169"
          y="72.572365">After</tspan></text>
   </g>
 </svg>
