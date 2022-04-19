@@ -42,8 +42,10 @@
  header {
      position: fixed;
      z-index: 1;
-     inset: 0;
-     bottom: calc(100vh - 8rem);
+     top: 0;
+     left: 0;
+     right: 0;
+     height: 8rem;
      background: white;
      display: flex;
      flex-direction: row;
@@ -55,6 +57,17 @@
      margin: 0;
  }
  nav > :global(*) {
-     padding: 2rem;
+     padding: .5em;
+ }
+ nav :global(ul) {
+     background: white;
+     box-shadow: 0 0 10px #2222;
+     padding: 1em;
+     righT: 0;
+ }
+ h1 {
+     font-size: 2.5rem;
+ }
+@media (min-width: 80.0rem) {
  }
 </style>
