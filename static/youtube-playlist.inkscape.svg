@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="233.53889mm"
+   height="114.09291mm"
+   viewBox="0 0 233.53889 114.09291"
+   version="1.1"
+   id="svg5"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="TriangleOutM"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(0.4)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1245" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Send"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1133" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1121" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1103" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1100" />
+    </marker>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(19.389843,-123.21931)">
+    <image
+       width="233.53889"
+       height="43.038891"
+       preserveAspectRatio="none"
+       xlink:href="youtube-playlist-after.png"
+       id="image936"
+       x="-19.389843"
+       y="194.27333" />
+    <image
+       width="233.53889"
+       height="43.038891"
+       preserveAspectRatio="none"
+       xlink:href="youtube-playlist-before.png"
+       id="image948"
+       x="-19.389843"
+       y="135.35942" />
+    <path
+       style="fill:none;stroke:#d40000;stroke-width:0.999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM)"
+       d="m 204.89759,171.88211 v 25.62318"
+       id="path1018" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:Roboto;text-align:center;letter-spacing:0px;text-anchor:middle;stroke-width:0.264583;fill:#606c76;fill-opacity:1;-inkscape-font-specification:'Roboto Light';font-weight:300;font-style:normal;font-stretch:normal;font-variant:normal"
+       x="-2.6412387"
+       y="131.2653"
+       id="text2454"><tspan
+         id="tspan2452"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';stroke-width:0.264583;fill:#606c76;fill-opacity:1"
+         x="-2.6412389"
+         y="131.2653">Before</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:Roboto;text-align:center;letter-spacing:0px;text-anchor:middle;stroke-width:0.264583;fill:#606c76;fill-opacity:1;-inkscape-font-specification:'Roboto Light';font-weight:300;font-style:normal;font-stretch:normal;font-variant:normal"
+       x="-5.6911664"
+       y="190.16626"
+       id="text3266"><tspan
+         id="tspan3264"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';stroke-width:0.264583;fill:#606c76;fill-opacity:1"
+         x="-5.6911659"
+         y="190.16626">After</tspan></text>
+  </g>
+</svg>

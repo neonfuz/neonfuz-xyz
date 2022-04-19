@@ -80,7 +80,33 @@
                 <img alt="Github" src="/github.png"/>
             </div>
             <div style:opacity={tab('youtubePlaylistButton', tabId)}>
-                <img alt="Youtube Quick Playlist Buttons" src="/youtube-playlist.png" />
+                <embed src="/youtube-playlist.svg" />
+                <p>
+                    This userscript adds a + button to many videos which quickly
+                    opens the "Add to playlist" menu.
+                </p>
+                <a class="button" href="https://gist.github.com/neonfuz/ea14fe2ad32c4caa860f36bb521b9a60">
+                    View code
+                </a>
+                <a class="button" href="https://gist.github.com/neonfuz/ea14fe2ad32c4caa860f36bb521b9a60/raw/youtube-quick-playlist.user.js">
+                    Install
+                </a>
+            </div>
+            <div style:opacity={tab('youtubeMiniplayerSidebar', tabId)}>
+                <embed src="/youtube-miniplayer.svg" />
+                <p>
+                    This userstyle moves the youtube miniplayer into vacant
+                    sidebar space while viewing playlists.
+                </p>
+                <p>
+                    It also allows the playlist sidebar width to be configured.
+                </p>
+                <a class="button" href="https://gist.github.com/neonfuz/6d3790334983b87b638ddecf84d0ab09">
+                    View code
+                </a>
+                <a class="button" href="https://gist.github.com/neonfuz/6d3790334983b87b638ddecf84d0ab09/raw/yt-miniplayer-in-playlist-sidebar.user.css">
+                    Install
+                </a>
             </div>
         </div>
     </div>
@@ -110,5 +136,8 @@
      position: absolute;
      width: 100%;
      height: 100%;
+ }
+ embed {
+     max-width: 100%;
  }
 </style>
