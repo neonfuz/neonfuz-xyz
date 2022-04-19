@@ -16,7 +16,11 @@
  let tabId = '';
  function preview(node, content) {
      function onHover() {
-         tabId = content;
+         const elem = document.getElementById(content);
+         if (elem) {
+             console.log(elem.scrollTop);
+             window.scrollTo(0, elem.scrollHeight - 80);
+         }
      }
      node.addEventListener('mouseenter', onHover);
      return {
@@ -25,12 +29,6 @@
          }
      }
  }
- function tab(name, tabId) {
-     if (tabId === name)
-         return 'width: 100%; opacity: 1;';
-     else
-         return 'width: 100%; opacity: 0; pointer-events: none;'
- }
 </script>
 
 
@@ -38,7 +36,7 @@
     <h1>neonfuz.xyz</h1>
     <nav>
         <Dropdown>
-            <header>Links</header>
+            <div>My Work</div>
             <ul>
                 <li>
                     <a href="https://neonfuz.github.io/resume/resume.pdf"
@@ -55,7 +53,7 @@
             </ul>
         </Dropdown>
         <Dropdown>
-            <header>Youtube Improvements</header>
+            <div>Youtube Improvements</div>
             <ul>
                 {#each foo as {name, href, id}}
                     <li>
@@ -71,15 +69,14 @@
 
 <main class="container">
     <div class="preview">
-        <div style={tab('resume', tabId)}>
+        <section id="resume">
             <h2>Resume</h2>
-            <PDF
-                title="Resume"
-                src="https://neonfuz.github.io/resume/resume.html"
-                href="https://neonfuz.github.io/resume/resume.pdf"
-            />
-        </div>
-        <div style={tab('github', tabId)}>
+            <p>
+                You can download my resume
+                <a href="https://neonfuz.github.io/resume/resume.pdf">HERE</a>.
+            </p>
+        </section>
+        <section id="github">
             <h2>GitHub</h2>
             <div class="row">
                 <div class="column">
@@ -92,8 +89,8 @@
                     </a>
                 </div>
             </div>
-        </div>
-        <div style={tab('youtubePlaylistButton', tabId)}>
+        </section>
+        <section id="youtubePlaylistButton">
             <h2>YouTube Quick Playlist Button</h2>
             <div class="row">
                 <div class="column">
@@ -112,8 +109,8 @@
                     <embed src="/youtube-playlist.svg" />
                 </div>
             </div>
-        </div>
-        <div style={tab('youtubeMiniplayerSidebar', tabId)}>
+        </section>
+        <section id="youtubeMiniplayerSidebar">
             <h2>YouTube MiniPlayer in SideBar</h2>
             <div class="row">
                 <div class="column">
@@ -135,31 +132,36 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
 </main>
 
 <style>
  header {
-     width: 100%;
+     position: fixed;
+     z-index: 1;
+     inset: 0;
+     bottom: calc(100vh - 8rem);
+     background: white;
      display: flex;
      flex-direction: row;
      justify-content: space-between;
      align-items: center;
  }
- header {
+ nav > :global(*) {
      padding: 1rem;
  }
  .preview {
+     margin-top: 8rem;
      position: relative;
  }
- .preview > * {
-     position: absolute;
-     top: 0;
-     transition: opacity .4s;
-     opacity: 0;
+ .preview section {
+     margin-top: 20vh;
+     padding-top: 8rem;
+     margin-bottom: 20vh;
  }
  .preview img {
+     padding: 1rem;
      box-shadow: 0 0 10px #2222;
  }
  .preview .row {
@@ -171,9 +173,5 @@
  embed {
      max-width: 100%;
      margin-top: 1rem;
- }
- :global(body) {
-     margin: 0;
-     height: 100%;
  }
 </style>

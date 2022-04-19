@@ -6,13 +6,14 @@
  div {
      display: inline-block;
      position: relative;
-     & > :global(*:not(:first-child)) {
-         display: none;
-         position: absolute;
-         z-index: 1;
-     }
-     &:hover > :global(*:not(:first-child)) {
-         display: block;
-     }
  }
+ div > :global(*:not(:first-child)) {
+     display: none;
+     position: absolute;
+     z-index: 1;
+ }
+ div:hover > :global(*:not(:first-child)) {
+     display: block;
+ }
+
 </style>

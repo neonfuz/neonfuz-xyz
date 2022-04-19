@@ -5,6 +5,7 @@
 
 <style>
  :global(body) {
-     overflow-x: hidden;
+     margin: 0;
+     scroll-behavior: smooth;
  }
 </style>
