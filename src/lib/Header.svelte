@@ -24,13 +24,13 @@
             <div>Youtube Improvements</div>
             <ul>
                 <li>
-                    <a href="#youtubeMiniplayerSidebar">
-                        MiniPlayer in SideBar
+                    <a href="#youtubePlaylistButton">
+                        Quick Playlist Buttons
                     </a>
                 </li>
                 <li>
-                    <a href="#youtubePlaylistButton">
-                        Quick Playlist Buttons
+                    <a href="#youtubeMiniplayerSidebar">
+                        MiniPlayer in SideBar
                     </a>
                 </li>
             </ul>
@@ -63,11 +63,14 @@
      background: white;
      box-shadow: 0 0 10px #2222;
      padding: 1em;
-     righT: 0;
+     right: 0;
  }
  h1 {
      font-size: 2.5rem;
  }
-@media (min-width: 80.0rem) {
+ @media (min-width: 40.0rem) {
+     h1 {
+         font-size: 4rem;
+     }
  }
 </style>

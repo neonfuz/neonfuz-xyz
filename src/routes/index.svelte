@@ -2,11 +2,11 @@
     <section id="resume">
         <h2>Resume</h2>
         <div class="row">
-            <div class="column column-67">
-                <iframe title="resume"
-                     src="https://neonfuz.github.io/resume/resume.html"
+                <iframe
+                    title="resume"
+                    frameborder="0"
+                    src="https://neonfuz.github.io/resume/resume.html"
                 />
-            </div>
             <div class="column">
                 <a class="button" href="https://neonfuz.github.io/resume/resume.pdf">
                     Download PDF
@@ -81,8 +81,9 @@
      text-align: center;
  }
  section {
-     margin-top: 20vh;
-     margin-bottom: 20vh;
+     padding-top: 15vh;
+     padding-bottom: 20vh;
+     border-bottom: solid #eee 2px;
  }
  .row {
      align-items: center;
@@ -90,7 +91,9 @@
  iframe {
      width: 100%;
      min-height: 50vh;
- }
+     box-shadow: 0 0 10px #2222;
+     margin-bottom: 2rem;
+}
  img {
      padding: 1rem;
      box-shadow: 0 0 10px #2222;

@@ -23,5 +23,6 @@
  }
  footer {
      text-align: center;
+     margin: 1em;
  }
 </style>
