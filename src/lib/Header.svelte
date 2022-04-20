@@ -45,13 +45,13 @@
      top: 0;
      left: 0;
      right: 0;
-     height: 8rem;
      background: white;
      display: flex;
      flex-direction: row;
      justify-content: space-between;
      align-items: center;
      box-shadow: 0 0 10px #2223;
+     padding: 1rem;
  }
  h1 {
      margin: 0;
@@ -61,9 +61,18 @@
  }
  nav :global(ul) {
      background: white;
-     box-shadow: 0 0 10px #2223;
-     padding: 1em;
+     box-shadow: 0 5px 10px -4px #2223;
+     border: solid #eee 1px;
+     padding: 0 1.2rem;
      right: 0;
+ }
+ nav :global(li) {
+     list-style: none;
+     margin: 0;
+     padding: .6em 0;
+ }
+ nav :global(li:not(:first-child)) {
+     border-top: solid #eee 1px;
  }
  h1 {
      font-size: 2.5rem;
