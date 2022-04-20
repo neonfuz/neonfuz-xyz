@@ -2,14 +2,38 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="233.53889mm"
-   height="126.75079mm"
-   viewBox="0 0 233.53889 126.75078"
+   width="155.575mm"
+   height="117.19956mm"
+   viewBox="0 0 155.57499 117.19955"
    version="1.1"
    id="svg5"
+   sodipodi:docname="youtube-playlist.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-page="true"
+     inkscape:zoom="1.4828458"
+     inkscape:cx="660.5542"
+     inkscape:cy="66.089139"
+     inkscape:window-width="1914"
+     inkscape:window-height="1045"
+     inkscape:window-x="0"
+     inkscape:window-y="1109"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
   <defs
      id="defs2">
     <marker
@@ -77,7 +101,9 @@
        id="marker18188"
        refX="0"
        refY="0"
-       orient="auto">
+       orient="auto"
+       inkscape:stockid="Arrow2Send"
+       inkscape:isstock="true">
       <path
          transform="matrix(-0.3,0,0,-0.3,0.69,0)"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
@@ -107,83 +133,74 @@
          y="-180.97966" />
     </clipPath>
   </defs>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:8.81944px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;text-anchor:middle;fill:#606c76;fill-opacity:1;stroke-width:0.264583"
+     x="11.846816"
+     y="6.7050138"
+     id="text2454-2"><tspan
+       sodipodi:role="line"
+       id="tspan2452-6"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:8.81944px;font-family:Roboto;-inkscape-font-specification:'Roboto, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#606c76;fill-opacity:1;stroke-width:0.264583"
+       x="11.846816"
+       y="6.7050138">Before</tspan></text>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
+     id="rect10499"
+     width="49.609791"
+     height="20.3365"
+     x="3.9810247e-06"
+     y="53.824169" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:8.81944px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;text-anchor:middle;fill:#606c76;fill-opacity:1;stroke-width:0.264583"
+     x="9.2694588"
+     y="70.080406"
+     id="text3266-5"><tspan
+       sodipodi:role="line"
+       id="tspan3264-6"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:8.81944px;font-family:Roboto;-inkscape-font-specification:'Roboto, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#606c76;fill-opacity:1;stroke-width:0.264583"
+       x="9.2694588"
+       y="70.080406">After</tspan></text>
+  <image
+     width="155.575"
+     height="43.038891"
+     preserveAspectRatio="none"
+     xlink:href="youtube-playlist-after.png"
+     id="image1319"
+     x="3.6042184e-06"
+     y="74.160667" />
+  <image
+     width="155.575"
+     height="43.038891"
+     preserveAspectRatio="none"
+     xlink:href="youtube-playlist-before.png"
+     id="image1331"
+     x="2.4901074e-06"
+     y="10.785276" />
   <g
      id="layer1"
-     transform="translate(19.389844,-115.02292)">
-    <image
-       width="233.53889"
-       height="43.038891"
-       preserveAspectRatio="none"
-       xlink:href="youtube-playlist-after.png"
-       id="image936"
-       x="-19.389843"
-       y="198.73482" />
-    <image
-       width="233.53889"
-       height="43.038891"
-       preserveAspectRatio="none"
-       xlink:href="youtube-playlist-before.png"
-       id="image948"
-       x="-19.389843"
-       y="135.35942" />
+     transform="translate(-59.327013,-128.46538)">
     <g
        id="path1018">
       <path
          style="color:#000000;fill:#d40000;-inkscape-stroke:none"
          d="m 204.39844,171.88281 v 33.17969 h 1 v -33.17969 z"
-         id="path1063" />
+         id="path1735" />
       <g
-         id="g1053">
+         id="g1725">
         <g
-           id="path1055">
+           id="path1727">
           <path
              style="color:#000000;fill:#d40000;fill-rule:evenodd;stroke-width:0.399999pt;-inkscape-stroke:none"
              d="m 204.89759,207.36966 -2,-3.46 h 4 z"
-             id="path1059" />
+             id="path1731" />
           <path
              style="color:#000000;fill:#d40000;fill-rule:evenodd;-inkscape-stroke:none"
              d="m 202.43555,203.64258 2.46289,4.25976 0.23047,-0.39843 2.23046,-3.86133 z m 0.92382,0.5332 h 3.07618 l -1.53711,2.66016 z"
-             id="path1061" />
+             id="path1733" />
         </g>
       </g>
     </g>
-  </g>
-  <rect
-     style="fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
-     id="rect10337"
-     width="49.609791"
-     height="20.3365"
-     x="0"
-     y="-7.7392576e-07" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:center;letter-spacing:0px;text-anchor:middle;fill:#606c76;fill-opacity:1;stroke-width:0.264583"
-     x="14.216142"
-     y="14.139571"
-     id="text2454-2"><tspan
-       id="tspan2452-6"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';fill:#606c76;fill-opacity:1;stroke-width:0.264583"
-       x="14.216142"
-       y="14.139571">Before</tspan></text>
-  <g
-     id="g1855"
-     transform="translate(-252.66838,4.942599)">
-    <rect
-       style="fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
-       id="rect10499"
-       width="49.609791"
-       height="20.3365"
-       x="252.66838"
-       y="58.432793" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:center;letter-spacing:0px;text-anchor:middle;fill:#606c76;fill-opacity:1;stroke-width:0.264583"
-       x="263.79169"
-       y="72.572365"
-       id="text3266-5"><tspan
-         id="tspan3264-6"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';fill:#606c76;fill-opacity:1;stroke-width:0.264583"
-         x="263.79169"
-         y="72.572365">After</tspan></text>
   </g>
 </svg>

@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="233.53889mm"
-   height="126.75079mm"
-   viewBox="0 0 233.53889 126.75078"
+   width="155.57501mm"
+   height="126.75078mm"
+   viewBox="0 0 155.57501 126.75076"
    version="1.1"
    id="svg5"
    sodipodi:docname="youtube-playlist.inkscape.svg"
@@ -25,15 +25,15 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:snap-page="true"
-     inkscape:zoom="0.94661332"
-     inkscape:cx="423.08722"
-     inkscape:cy="266.21218"
+     inkscape:zoom="0.88682907"
+     inkscape:cx="341.10294"
+     inkscape:cy="385.64365"
      inkscape:window-width="1914"
      inkscape:window-height="1045"
      inkscape:window-x="0"
      inkscape:window-y="1109"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g1855" />
+     inkscape:current-layer="svg5" />
   <defs
      id="defs2">
     <marker
@@ -133,52 +133,27 @@
          y="-180.97966" />
     </clipPath>
   </defs>
-  <g
-     id="layer1"
-     transform="translate(19.389844,-115.02292)">
-    <image
-       width="233.53889"
-       height="43.038891"
-       preserveAspectRatio="none"
-       xlink:href="youtube-playlist-after.png"
-       id="image936"
-       x="-19.389843"
-       y="198.73482" />
-    <image
-       width="233.53889"
-       height="43.038891"
-       preserveAspectRatio="none"
-       xlink:href="youtube-playlist-before.png"
-       id="image948"
-       x="-19.389843"
-       y="135.35942" />
-    <path
-       style="fill:none;stroke:#d40000;stroke-width:0.999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM)"
-       d="m 204.89759,171.88211 v 33.17955"
-       id="path1018"
-       sodipodi:nodetypes="cc" />
-  </g>
   <rect
      style="fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
      id="rect10337"
      width="49.609791"
      height="20.3365"
-     x="0"
-     y="-7.7392576e-07" />
+     x="9.246387e-06"
+     y="0" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:center;letter-spacing:0px;text-anchor:middle;fill:#606c76;fill-opacity:1;stroke-width:0.264583"
-     x="14.216142"
-     y="14.139571"
+     x="14.216151"
+     y="14.139572"
      id="text2454-2"><tspan
        sodipodi:role="line"
        id="tspan2452-6"
        style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';fill:#606c76;fill-opacity:1;stroke-width:0.264583"
-       x="14.216142"
-       y="14.139571">Before</tspan></text>
+       x="14.21615"
+       y="14.139572">Before</tspan></text>
   <g
      id="g1855"
-     transform="translate(-252.66838,4.942599)">
+     transform="translate(-252.66837,4.9425998)">
     <rect
        style="fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
        id="rect10499"
@@ -197,5 +172,30 @@
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';fill:#606c76;fill-opacity:1;stroke-width:0.264583"
          x="263.79169"
          y="72.572365">After</tspan></text>
+  </g>
+  <image
+     width="155.575"
+     height="43.038891"
+     preserveAspectRatio="none"
+     xlink:href="youtube-playlist-after.png"
+     id="image1319"
+     x="1.0360498e-05"
+     y="83.711891" />
+  <image
+     width="155.575"
+     height="43.038891"
+     preserveAspectRatio="none"
+     xlink:href="youtube-playlist-before.png"
+     id="image1331"
+     x="9.246387e-06"
+     y="20.3365" />
+  <g
+     id="layer1"
+     transform="translate(-59.327006,-118.91416)">
+    <path
+       style="fill:none;stroke:#d40000;stroke-width:0.999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM)"
+       d="m 204.89759,171.88211 v 33.17955"
+       id="path1018"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>

@@ -81,9 +81,12 @@
      text-align: center;
  }
  section {
-     padding-top: 15vh;
-     padding-bottom: 20vh;
+     padding-top: 13vh;
+     padding-bottom: 13vh;
      border-bottom: solid #eee 2px;
+ }
+ h2 {
+     margin-bottom: 1.5em;
  }
  .row {
      align-items: center;
@@ -91,12 +94,13 @@
  iframe {
      width: 100%;
      min-height: 50vh;
-     box-shadow: 0 0 10px #2222;
+     box-shadow: 0 0 10px #2223;
      margin-bottom: 2rem;
+     flex: 0 0 66.66%;
 }
  img {
      padding: 1rem;
-     box-shadow: 0 0 10px #2222;
+     box-shadow: 0 0 10px #2223;
  }
  embed {
      max-width: 100%;

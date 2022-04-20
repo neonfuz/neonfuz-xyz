@@ -51,7 +51,7 @@
      flex-direction: row;
      justify-content: space-between;
      align-items: center;
-     box-shadow: 0 0 10px #2222;
+     box-shadow: 0 0 10px #2223;
  }
  h1 {
      margin: 0;
@@ -61,7 +61,7 @@
  }
  nav :global(ul) {
      background: white;
-     box-shadow: 0 0 10px #2222;
+     box-shadow: 0 0 10px #2223;
      padding: 1em;
      right: 0;
  }
