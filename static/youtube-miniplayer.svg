@@ -2,75 +2,53 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="389.78241mm"
-   height="339.12305mm"
-   viewBox="0 0 389.78241 339.12305"
+   width="155.575mm"
+   height="170.83029mm"
+   viewBox="0 0 155.57499 170.83029"
    version="1.1"
    id="svg5"
+   sodipodi:docname="youtube-miniplayer.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-page="true"
+     inkscape:zoom="6.7999279"
+     inkscape:cx="50.662302"
+     inkscape:cy="33.382707"
+     inkscape:window-width="1914"
+     inkscape:window-height="1045"
+     inkscape:window-x="0"
+     inkscape:window-y="1109"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
   <defs
      id="defs2">
-    <marker
-       style="overflow:visible"
-       id="marker18188"
-       refX="0"
-       refY="0"
-       orient="auto">
-      <path
-         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
-         id="path11108" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="marker18179"
-       refX="0"
-       refY="0"
-       orient="auto">
-      <path
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
-         id="path18177" />
-    </marker>
     <marker
        style="overflow:visible"
        id="Arrow2Mend"
        refX="0"
        refY="0"
-       orient="auto">
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
       <path
          transform="scale(-0.6)"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
          style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
-         id="path11102" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="marker11374"
-       refX="0"
-       refY="0"
-       orient="auto">
-      <path
-         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
-         id="path11096" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="TriangleOutL"
-       refX="0"
-       refY="0"
-       orient="auto">
-      <path
-         transform="scale(0.8)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
-         d="M 5.77,0 -2.88,5 V -5 Z"
-         id="path11217" />
+         id="path2045" />
     </marker>
     <marker
        style="overflow:visible"
@@ -132,17 +110,20 @@
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path1100" />
     </marker>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath10713">
-      <rect
-         style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.999998;stroke-opacity:1"
-         id="rect10715"
-         width="389.78241"
-         height="149.22501"
-         x="-126.42069"
-         y="-180.97966" />
-    </clipPath>
+    <marker
+       style="overflow:visible"
+       id="marker18188"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path11108" />
+    </marker>
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath10717">
@@ -154,81 +135,77 @@
          x="-126.42069"
          y="-11.418144" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath10713">
+      <rect
+         style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.999998;stroke-opacity:1"
+         id="rect10715"
+         width="389.78241"
+         height="149.22501"
+         x="-126.42069"
+         y="-180.97966" />
+    </clipPath>
   </defs>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:8.81944px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;text-anchor:middle;fill:#606c76;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+     x="11.846817"
+     y="6.7050138"
+     id="text2454-2"><tspan
+       sodipodi:role="line"
+       id="tspan2452-6"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:8.81944px;font-family:Roboto;-inkscape-font-specification:'Roboto, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#606c76;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       x="11.846817"
+       y="6.7050138">Before</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:8.81944px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;text-anchor:middle;fill:#606c76;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+     x="9.269455"
+     y="96.343857"
+     id="text3266-5"><tspan
+       sodipodi:role="line"
+       id="tspan3264-6"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:8.81944px;font-family:Roboto;-inkscape-font-specification:'Roboto, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#606c76;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       x="9.269455"
+       y="96.343857">After</tspan></text>
+  <image
+     width="155.575"
+     height="69.729179"
+     preserveAspectRatio="none"
+     xlink:href="youtube-miniplayer-after.png"
+     id="image1264"
+     x="8.919742e-07"
+     y="101.10112"
+     style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+  <image
+     width="154.02592"
+     height="69.034882"
+     preserveAspectRatio="none"
+     xlink:href="youtube-miniplayer-before.png"
+     id="image1276"
+     x="8.919742e-07"
+     y="12.226364"
+     style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
   <g
-     id="layer1"
-     transform="translate(126.42069,201.31618)">
-    <rect
-       style="fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
-       id="rect10337"
-       width="49.609791"
-       height="20.3365"
-       x="-126.42069"
-       y="-201.31618" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:center;letter-spacing:0px;text-anchor:middle;fill:#606c76;fill-opacity:1;stroke-width:0.264583"
-       x="-112.20455"
-       y="-187.17661"
-       id="text2454"><tspan
-         id="tspan2452"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';fill:#606c76;fill-opacity:1;stroke-width:0.264583"
-         x="-112.20455"
-         y="-187.17661">Before</tspan></text>
-    <image
-       width="464.25558"
-       height="149.22501"
-       preserveAspectRatio="none"
-       xlink:href="youtube-miniplayer-before.png"
-       id="image9979"
-       x="-200.89386"
-       y="-180.97968"
-       clip-path="url(#clipPath10713)" />
-    <image
-       width="464.25558"
-       height="149.22501"
-       preserveAspectRatio="none"
-       xlink:href="youtube-miniplayer-after.png"
-       id="image9991"
-       x="-126.42069"
-       y="-11.418152"
-       clip-path="url(#clipPath10717)" />
-    <rect
-       style="fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
-       id="rect10499"
-       width="49.609791"
-       height="20.3365"
-       x="-126.42069"
-       y="-31.754654" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:center;letter-spacing:0px;text-anchor:middle;fill:#606c76;fill-opacity:1;stroke-width:0.264583"
-       x="-115.29738"
-       y="-17.615082"
-       id="text3266"><tspan
-         id="tspan3264"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';fill:#606c76;fill-opacity:1;stroke-width:0.264583"
-         x="-115.29738"
-         y="-17.615082">After</tspan></text>
+     id="path1851"
+     transform="translate(5.9464946e-7,3.175)">
+    <path
+       style="color:#000000;fill:#ff0000;-inkscape-stroke:none"
+       d="m 63.839844,48.203125 v 61.966795 h 1 V 49.203125 h 15.486328 v -1 z"
+       id="path3517" />
     <g
-       id="path12200">
-      <path
-         style="color:#000000;fill:#ff0000;-inkscape-stroke:none"
-         d="M 102.78516,-101.61328 27.642578,61.902344 h -58.773437 v 2 h 60.05664 L 104.06641,-99.613281 h 51.41992 v -1.999999 z"
-         id="path1678" />
+       id="g3507">
       <g
-         id="g1668">
-        <g
-           id="path1670">
-          <path
-             style="color:#000000;fill:#ff0000;fill-rule:evenodd;stroke-width:0.375;stroke-linejoin:round;-inkscape-stroke:none"
-             d="m -27.280194,65.322922 -6.555527,-2.410633 6.555527,-2.410633 c -1.047299,1.423237 -1.041264,3.370471 0,4.821266 z"
-             id="path1674" />
-          <path
-             style="color:#000000;fill:#ff0000;fill-rule:evenodd;stroke-linejoin:round;-inkscape-stroke:none"
-             d="m -27.345703,60.326172 -6.554688,2.410156 a 0.18751875,0.18751875 0 0 0 0,0.351563 l 6.554688,2.410156 a 0.18751875,0.18751875 0 0 0 0.21875,-0.285156 c -0.995123,-1.386507 -1.00066,-3.242407 -0.002,-4.59961 a 0.18751875,0.18751875 0 0 0 -0.216797,-0.287109 z m -0.222656,0.480469 c -0.762715,1.313606 -0.758354,2.88006 0.002,4.210937 l -5.726563,-2.105469 z"
-             id="path1676" />
-        </g>
+         id="path3509">
+        <path
+           style="color:#000000;fill:#ff0000;fill-rule:evenodd;stroke-width:0.4pt;-inkscape-stroke:none"
+           d="m 64.340027,112.47781 -2,-3.46 h 4 z"
+           id="path3513" />
+        <path
+           style="color:#000000;fill:#ff0000;fill-rule:evenodd;-inkscape-stroke:none"
+           d="m 61.876953,108.75195 2.462891,4.25782 0.230468,-0.39844 2.232422,-3.85938 z m 0.925781,0.53321 h 3.074219 l -1.537109,2.66015 z"
+           id="path3515" />
       </g>
     </g>
   </g>
