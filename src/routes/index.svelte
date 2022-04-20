@@ -85,6 +85,9 @@
      padding-bottom: 13vh;
      border-bottom: solid #eee 2px;
  }
+ section:first-child {
+     margin-top: -5rem;
+ }
  h2 {
      margin-bottom: 1.5em;
  }
