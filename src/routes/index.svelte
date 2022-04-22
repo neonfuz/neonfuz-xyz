@@ -91,6 +91,14 @@
  h2 {
      margin-bottom: 1.5em;
  }
+ @media (min-width: 40rem) {
+     h2 {
+         z-index: 3;
+         pointer-events: none;
+         position: sticky;
+         top: 2.4rem;
+     }
+ }
  .row {
      align-items: center;
  }

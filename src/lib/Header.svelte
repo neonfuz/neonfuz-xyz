@@ -21,7 +21,7 @@
             </ul>
         </Dropdown>
         <Dropdown>
-            <div>Youtube Improvements</div>
+            <div>Youtube Addons</div>
             <ul>
                 <li>
                     <a href="#youtubePlaylistButton">
@@ -55,6 +55,7 @@
  }
  h1 {
      margin: 0;
+     font-size: 2.5rem;
  }
  nav > :global(*) {
      padding: .5em;
@@ -74,8 +75,13 @@
  nav :global(li:not(:first-child)) {
      border-top: solid #eee 1px;
  }
- h1 {
-     font-size: 2.5rem;
+ nav {
+     display: flex;
+     align-items: center;
+ }
+ nav > :global(div) > :global(div){
+     max-width: 8rem;
+     text-align: center;
  }
  @media (min-width: 40.0rem) {
      h1 {
