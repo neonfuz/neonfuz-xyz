@@ -5,7 +5,7 @@
                 <iframe
                     title="resume"
                     frameborder="0"
-                    src="https://neonfuz.github.io/resume/resume.html"
+                    src="https://neonfuz.github.io/resume/resume.pdf"
                 />
             <div class="column">
                 <a class="button" href="https://neonfuz.github.io/resume/resume.pdf">
