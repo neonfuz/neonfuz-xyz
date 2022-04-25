@@ -1,3 +1,7 @@
+<script>
+ import YouTubeIcon from '$lib/youtube-icon.svelte';
+</script>
+
 <div class="preview">
     <section id="resume">
         <h2>Resume</h2>
@@ -13,7 +17,6 @@
                 </a>
             </div>
         </div>
-
     </section>
     <section id="github">
         <h2>GitHub</h2>
@@ -30,7 +33,7 @@
         </div>
     </section>
     <section id="youtubePlaylistButton">
-        <h2>YouTube Quick Playlist Button</h2>
+        <h2><YouTubeIcon /> Quick Playlist Button</h2>
         <div class="row">
             <div class="column">
                 <embed src="/youtube-playlist.svg" />
@@ -50,7 +53,7 @@
         </div>
     </section>
     <section id="youtubeMiniplayerSidebar">
-        <h2>YouTube MiniPlayer in SideBar</h2>
+        <h2><YouTubeIcon style="max-height: 1em;" /> MiniPlayer in SideBar</h2>
         <div class="row">
             <div class="column">
                 <p>
@@ -91,7 +94,7 @@
  h2 {
      margin-bottom: 1.5em;
  }
- @media (min-width: 40rem) {
+ @media (min-width: 800px) {
      h2 {
          z-index: 3;
          pointer-events: none;
