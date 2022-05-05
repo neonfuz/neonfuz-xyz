@@ -6,16 +6,16 @@
     <section id="resume">
         <h2>Resume</h2>
         <div class="row">
-                <iframe
-                    title="resume"
-                    frameborder="0"
-                    src="https://neonfuz.github.io/resume/resume.pdf"
-                />
             <div class="column">
                 <a class="button" href="https://neonfuz.github.io/resume/resume.pdf">
                     Download PDF
                 </a>
             </div>
+            <iframe
+                title="resume"
+                frameborder="0"
+                src="https://neonfuz.github.io/resume/resume.pdf"
+            />
         </div>
     </section>
     <section id="github">
@@ -36,9 +36,6 @@
         <h2><YouTubeIcon /> Quick Playlist Button</h2>
         <div class="row">
             <div class="column">
-                <embed src="/youtube-playlist.svg" />
-            </div>
-            <div class="column">
                 <p>
                     This userscript adds a + button to many videos which quickly
                     opens the "Add to playlist" menu.
@@ -49,6 +46,9 @@
                 <a class="button" href="https://gist.github.com/neonfuz/ea14fe2ad32c4caa860f36bb521b9a60/raw/youtube-quick-playlist.user.js">
                     Install
                 </a>
+            </div>
+            <div class="column">
+                <embed src="/youtube-playlist.svg" />
             </div>
         </div>
     </section>
@@ -84,8 +84,7 @@
      text-align: center;
  }
  section {
-     padding-top: 13vh;
-     padding-bottom: 13vh;
+     padding: 13vmin 0;
      border-bottom: solid #eee 2px;
  }
  section:first-child {
@@ -100,6 +99,9 @@
          pointer-events: none;
          position: sticky;
          top: 2.4rem;
+     }
+     section:nth-child(odd) .row {
+         flex-direction: row-reverse;
      }
  }
  .row {
@@ -119,5 +121,8 @@
  embed {
      max-width: 100%;
      margin-top: 1rem;
+ }
+ .button {
+     margin-bottom: 2rem;
  }
 </style>
