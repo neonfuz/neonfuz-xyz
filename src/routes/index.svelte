@@ -40,6 +40,11 @@
                     This userscript adds a + button to many videos which quickly
                     opens the "Add to playlist" menu.
                 </p>
+                <p>
+                    To install userscripts, you will need a browser extension. I
+                    recommend
+                    <a href="https://www.tampermonkey.net/">Tampermonkey</a>.
+                </p>
                 <a class="button" href="https://gist.github.com/neonfuz/ea14fe2ad32c4caa860f36bb521b9a60">
                     View code
                 </a>
@@ -59,6 +64,11 @@
                 <p>
                     This userstyle moves the youtube miniplayer into vacant
                     sidebar space while viewing playlists.
+                </p>
+                <p>
+                    To install userstyles, you will need a browser extension. I
+                    recommend
+                    <a href="https://github.com/openstyles/stylus">Stylus</a>.
                 </p>
                 <p>
                     It also allows the playlist sidebar width to be configured.
